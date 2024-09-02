@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:25.7.2024
+## Register Number:21223040165
+## Name:D.Rajeshwaran
 ## Problem Title
 Development of e-Portal for facilitating Case Management Hearing of various types of cases
 ## Problem Description
