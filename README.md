@@ -1,56 +1,61 @@
 # Smart India Hackathon Workshop
-# Date:25.8.2024
-## Register Number:21223040165
-## Name:D.Rajeshwaran
+## Date: 01-03-2025
+## Register Number: 212223040165
+## Name: RAJESHWARAN D
 ## Problem Title
-Development of e-Portal for facilitating Case Management Hearing of various types of cases
+SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
-Case Management Hearing, known as a Pre-Trial Conference" in other jurisdictions". This application is used for managing case files since filing to disposal and to complete all its related processes. The CMS keeps the records of all the cases filed in Delhi High Court. The system has following features: Filing of Case, Caveat matching, Allocation of case, Daily Case Proceedings, Notice Generation, Case Transfer, Case Status Search, Report, etc.
+Background: Railway stations are complex environments with numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, and waiting areas. Passengers often face difficulties in navigating these spaces, especially in large or unfamiliar stations. Efficient and user-friendly navigation systems are crucial for improving passenger experience, reducing congestion, and ensuring timely travel connections. Description: The problem involves developing a comprehensive navigation solution for railway stations that assists passengers in locating various facilities and destinations within the station premises. This includes creating detailed maps, providing real-time directions, and integrating features such as accessibility options for individuals with disabilities. The solution should be intuitive, easy to use, and accessible via multiple platforms, including mobile devices and digital kiosks. Key challenges include updating navigation information in real-time, ensuring accuracy, and accommodating the diverse needs of all passengers. Expected Solution: The expected solution is a multi-platform navigation system that provides detailed, real-time directions to all facilities and locations within a railway station. This system should include: A mobile application with 3D interactive maps and step-by-step navigation. Digital kiosks located throughout the station with touch-screen interfaces. Voice-guided navigation for visually impaired passengers. Regular updates to reflect changes in station layout and facility locations. Integration with existing railway apps and services for seamless user experience. The solution should enhance the overall passenger experience by reducing confusion, saving time, and improving accessibility within the station.
+
 ## Problem Creater's Organization
-Ministry of Law and Justice
+Ministry of Railway
 
 ## Idea
-Creating an e-Portal for facilitating case management and hearing can be a transformative solution for legal systems, businesses, and other sectors that manage disputes or cases. Below are detailed points and ideas for developing such an e-Portal:
+1. Smart Navigation – Uses GPS and Indoor Positioning to help passengers find platforms, restrooms, ticket counters, and other facilities.
 
-1.User-Centric Design Role-Based Access: The portal should cater to different user roles, such as judges, lawyers, plaintiffs, defendants, administrative staff, and the general public. Each role should have tailored access and interfaces. Intuitive Interface: Simplify navigation with a clean, user-friendly interface that minimizes the learning curve for users. Multi-language Support: To cater to diverse user groups, the portal should offer multi-language support.
+2. AI Chatbot Assistance – A virtual assistant answers passenger queries about train schedules, ticketing, and lost-and-found services.
 
-2.Case Management Features Case Filing: Allow users to file new cases electronically, complete with the ability to upload documents, provide descriptions, and categorize case types. Automated Case Numbering: Generate unique case numbers automatically for tracking and reference.
+3. Real-Time Alerts – Sends notifications for train delays, gate changes, crowd congestion, and emergency announcements.
 
-3.Hearing Management Scheduling and Calendar Integration: Automated scheduling of hearings with calendar integration, allowing users to view and manage their hearing schedules. The system could suggest available slots based on the judge’s and participants’ availability.
+4. Eco-Friendly Rewards – Encourages digital ticketing and sustainable travel with a reward points system for discounts.
 
-4.Collaboration and Communication Tools Messaging System: A secure internal messaging system for communication between case participants, including judges, lawyers, and administrative staff. 5.Security and Compliance Data Encryption: All data, especially sensitive case details, should be encrypted at rest and in transit to protect against unauthorized access.
-
-6.Analytics and Reporting Case Progress Reports: Automated generation of case progress reports, with insights into timelines, bottlenecks, and case outcomes.
+5. Analytics Dashboard – Provides railway authorities with real-time data on passenger movement, facility usage, and emergency situations.
 
 
 ## Proposed Solution / Architecture Diagram
-![image](https://github.com/user-attachments/assets/93cb00af-e9c1-4154-8780-359f9622d398)
 
+<img width="467" height="553" alt="image" src="https://github.com/user-attachments/assets/9c643e31-49be-45d1-bdcc-7403d8d558b5" />
 
 
 ## Use Cases
+<img width="526" height="547" alt="image" src="https://github.com/user-attachments/assets/96827789-622e-4f03-89c3-7adf126fc3ba" />
 
-![image](https://github.com/user-attachments/assets/91ae87c1-6c9f-4366-83b8-c6c8c8b52546)
+
 
 ## Technology Stack
-React.js
+Vuforia: For AR capabilities.
 
-Node.js
+Unity: For developing the 3D and AR navigation system.
 
-PostgreSQL
+Google Maps API: For mapping and real-time location services.
 
-Google maps
+Firebase: For real-time database and authentication.
 
-Firebox Authenticator
+React Native: For cross-platform mobile app development.
 
-Git , Postman or Insomnia
+AWS: For cloud services and hosting.
+
 
 ## Dependencies
+Mapping Service (10 days) – Integrate with a reliable mapping service like Google Maps or OpenStreetMap for accurate navigation.
 
-1.Software Development Frameworks
+Data Collection (30-45 days) – Gather and verify accurate station layouts, facility locations, and real-time updates for better navigation.
 
-2.Database Management Systems
+Budget Allocation (7 days) – Secure funding (₹50,000 - ₹1,00,000) for development, testing, and long-term maintenance of the system.
 
-3.Video Conferencing Tools
+User Feedback Integration (Ongoing) – Continuously collect and implement user feedback to enhance the app’s features and usability.
 
-4.Security Tools
+Regulatory Approvals (15-30 days) – Obtain necessary permissions from railway authorities to deploy the system in stations.
+
+Technical Support Setup (Ongoing) – Ensure continuous technical support for bug fixes, software updates, and troubleshooting.
+
